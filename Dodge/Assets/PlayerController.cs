@@ -44,6 +44,9 @@ public class PlayerController : MonoBehaviour
         Vector3 newVelocity = new Vector3(xSpeed, 0f, zSpeed);
         //리지드바디의 속도에 newVelocity 할당
         PlayerRigidbody.velocity = newVelocity;
+
+
+
     }
     public void Die()
     {
